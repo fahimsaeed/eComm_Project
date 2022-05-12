@@ -29,7 +29,7 @@ if (session()->has('user')) {
           <a class="nav-link" href="javascript:void(0)">Orders</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="javascript:void(0)">Cart({{$total}})</a>
+          <a class="nav-link" href="cartlist">Cart({{$total}})</a>
         </li>
       </ul>
       <form class="d-flex" action="/search">
